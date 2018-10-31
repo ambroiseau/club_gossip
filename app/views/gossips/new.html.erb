@@ -1,2 +1,17 @@
-<h1>Gossips#new</h1>
-<p>Find me in app/views/gossips/new.html.erb</p>
+<div class="container">
+<br>
+<h1>wesh cousin bien ou bien</h1>
+<p>balance ton porc frere</p>
+
+<div class="form-group">
+
+<%= form_for @gossip, url: {action: "create"} do |f| %>
+  	wut is ur nickname?
+  	<%= f.text_field :anonymous_gossiper, class: 'form-control' %><br>
+  	wut is ur gossip?
+  	<%= f.text_area :content, class: 'form-control' %><br>
+  	<%= f.submit "Create", class: 'btn btn-primary' %>
+<% end %>
+</div>
+
+</div>

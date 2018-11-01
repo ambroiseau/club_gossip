@@ -1,17 +1,14 @@
 <div class="container">
-<br>
-<h1>wesh cousin bien ou bien</h1>
-<p>balance ton porc frere</p>
-
+<h1>wesh cousin balance ton porc</h1>
+	<div class="center jumbotron">
 <div class="form-group">
-
 <%= form_for @gossip, url: {action: "create"} do |f| %>
-  	wut is ur nickname?
+  	c koi ton pseudo?
   	<%= f.text_field :anonymous_gossiper, class: 'form-control' %><br>
-  	wut is ur gossip?
+  	c koi ton potin?
   	<%= f.text_area :content, class: 'form-control' %><br>
   	<%= f.submit "Create", class: 'btn btn-primary' %>
 <% end %>
 </div>
-
+</div>
 </div>

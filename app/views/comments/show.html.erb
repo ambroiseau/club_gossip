@@ -1,0 +1,8 @@
+<h2>Tous les commentaires de cette info!</h1>
+
+<p>info : "<%= @gossip.content %>"</p>
+
+<% @gossip.comments.each do |comment| %>
+	<%= comment.username %>
+	<p><%= comment.content %><p><br>
+<% end %>

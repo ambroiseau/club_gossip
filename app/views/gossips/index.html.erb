@@ -8,7 +8,7 @@
     <h5 class="card-title"><%=element.content%></h5>
     <p class="card-text"><%= element.anonymous_gossiper %></p>
     <p ><%= link_to "Voir la Rumeur", gossip_path(element.id), class: "btn btn-dark" %>
-    	<%= link_to "Commenter", edit_gossip_path(element.id), class: "btn btn-dark" %>
+    	<%= link_to "Commenter", new_gossip_comment_path(element.id), class: "btn btn-dark" %>
     	<%= link_to "<3", edit_gossip_path(element.id), class: "btn btn-dark" %>
     	<%= link_to "Éditer", edit_gossip_path(element.id), class: "btn btn-dark" %>
     	<%= link_to "Taire la rumeur", gossip_path(element.id), class: "btn btn-dark", :data => {:confirm => 'Voulez-vous taire la rumeur?', :method => "DELETE"} %>

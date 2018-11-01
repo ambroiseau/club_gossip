@@ -1,0 +1,11 @@
+	<%= form_for @comment, url: {action: "create"}, html: {:class => 'form-group'} do |f| %> 
+
+	<div class="center jumbotron">
+		<h3><%= @gossip.content %></h3> <br>
+		<%= f.text_area :content, size: "5em", class: 'form-control', placeholder: 'lache des comzzzz' %> <br>
+
+
+		<%= f.submit "Create" %>
+
+	</div>
+	<% end %>

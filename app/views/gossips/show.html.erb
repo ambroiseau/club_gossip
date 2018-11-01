@@ -1,3 +1,16 @@
-<p>caca</p>
-
+<div class="card">
+  <div class="card-header">
+    Oh le joli gossip! t'es une vraie comère toi !!
+  </div>
+  <div class="card-body">
+    <blockquote class="blockquote mb-0">
+      <p><%= @gossip.content %></p>
+      <footer class="blockquote-footer"> <cite title="Source Title"><%= @gossip.anonymous_gossiper %></cite></footer>
+    </blockquote>
+  </div>
+</div>
+<br>
+  <%=link_to "Index des Gossips", gossips_path, class: "btn btn-dark" %>
+  <%=link_to "Éditer ton Gossip", edit_gossip_path, class: "btn btn-dark" %>
+    <%=link_to "Écrire une Rumeur", new_gossip_path, class: "btn btn-dark" %>
 

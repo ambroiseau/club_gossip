@@ -2,12 +2,12 @@
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <a class="navbar-brand" href="/">GOSSIP CLUB</a>
+  <a class="navbar-brand h1" href="/"><kbd>GOSSIP CLUB</kbd></a>
   <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-        <li class="nav-item active" ><p class="nav-link"><%= link_to "Accueil", root_path %></p><span class="sr-only">(current)</span></li>
-        <li class="nav-item"><p class="nav-link"><%= link_to "Index des gossips", gossips_path %></p><span class="sr-only">(current)</span></li>
-        <li class="nav-item" ><p class="nav-link"><%= link_to "Nouveau gossip", new_gossip_path %></p><span class="sr-only">(current)</span></li>
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0 text-secondary">
+        <li class="nav-item active text-secondary" ><p class="nav-link"><kbd><%= link_to "Accueil", root_path %></kbd></p></li>
+        <li class="nav-item"><p class="nav-link"><kbd><%= link_to "Gossip Library", gossips_path %></kbd></p></li>
+        <li class="nav-item" ><p class="nav-link"><kbd><%= link_to "Nouveau gossip", new_gossip_path %></kbd></p></li>
       </ul><br>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

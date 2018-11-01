@@ -4,6 +4,12 @@
   <h3>
     Ici, tu peux diffuser les plus belles rumeurs  🎓  
   </h3><br>
-  <%= link_to "s'identifier", new_gossip_path, class: "btn btn-lg btn-info" %>
-  <%= link_to "s'inscrire", gossips_path, class: "btn btn-lg btn-info" %>
+
+  <% if current_user %>
+  	<%= link_to "Sign Out", destroy_user_session_path, method: :delete, class: "btn btn-lg btn-info" %>
+  <% else %>
+  <%= link_to "s'identifier", new_user_session_path, class: "btn btn-lg btn-info" %>
+  <%= link_to "s'inscrire", new_user_registration_path, class: "btn btn-lg btn-info" %>
+
+  <% end %>
 </div>

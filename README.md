@@ -1,24 +1,19 @@
-# README
+SALUT
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+VOICI MON LIEN HEROKU pour ce superbe CLUB GOSSIP ****
+https://club-gossip.herokuapp.com/
 
-Things you may want to cover:
 
-* Ruby version
 
-* System dependencies
+A DEMAIN
 
-* Configuration
 
-* Database creation
 
-* Database initialization
 
-* How to run the test suite
+****si en production c'est un peu foireux, c'était pas si mal en local ;) ;) ;) ;) ;) 
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
 
-* ...
+RUBY VERSION 5.2.1
+
+GEM 2.5.1
